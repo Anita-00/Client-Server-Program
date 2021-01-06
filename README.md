@@ -2,6 +2,8 @@
 
 The client connects to the server. The client sends transactions to the server, and the server listens for communications from the server.
 
+Note: programs are in the master file
+
 ## Getting Started
 
 In the master branch, there are the codes for the client.cpp program and the server.cpp program. Additionally, there are man pages for the client program 
