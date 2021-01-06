@@ -2,7 +2,7 @@
 
 The client connects to the server. The client sends transactions to the server, and the server listens for communications from the server.
 
-* programs are in the master file
+* programs are in the master branch
 
 ## Getting Started
 
