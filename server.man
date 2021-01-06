@@ -1,0 +1,23 @@
+.TH SERVER 1 "28 Novemeber 20"
+.SH NAME
+server \- listens for communications from clients.
+.SH SYNOPSIS
+\fB./server\fP <port>
+.SH DESCRIPTION
+\fBserver\fP listens for communications on the port number for clients. Server gets T<n> process to perform as a message 
+from the client. Server waits for another message from clients after processing one message. Returns transaction 
+number to client after message has been processed. Server times out after 30 seconds after last client disconnects 
+if no other client connects in that time.  
+.SS Options
+.TP
+\fB<port>\fP
+Must be integer value between 5,000 to 64,000.
+.SH EXAMPLES
+\fB./server 6000\fP
+.SH "SEE ALSO"
+client(1)
+.SH AUTHOR
+Anita Ferenc
+.SH REPORTING BUGS
+No bugs to report.
+
