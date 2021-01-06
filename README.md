@@ -37,3 +37,7 @@ Example:
 ```
 ./server 6000
 ```
+
+## Acknowledgements
+
+* tands.c file was written by professor and TAA's at the University of Alberta
