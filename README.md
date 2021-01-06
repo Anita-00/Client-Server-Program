@@ -42,4 +42,4 @@ Example:
 
 ## Acknowledgements
 
-* tands.c file was written by professor and TAA's at the University of Alberta
+* tands.c file was written by professor and TA's at the University of Alberta
