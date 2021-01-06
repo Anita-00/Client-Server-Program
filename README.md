@@ -11,7 +11,7 @@ and the server program.
 
 To clone, in terminal write:
 
-'''
+```
 git clone https://github.com/Anita-00/Client-Server-Program.git
-'''
+```
 
