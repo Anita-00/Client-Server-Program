@@ -1,0 +1,22 @@
+.TH CLIENT 1 "28 Novemeber 20"
+.SH NAME
+client \- sends transactions to server
+.SH SYNOPSIS
+\fB./cilent\fP <port> <ip address>
+.SH DESCRIPTION
+\fBclient\fP connects to a server at the specified ip address and specified port. 
+Client reads T<n> and S<n> commands, sending T<n> commands to server. S<n> commands
+causes the client to wait. <n> is an integer.
+.SS Options
+.TP
+\fB<port>\fP
+Must be integer value between 5,000 to 64,000.
+.SH EXAMPLES
+\fB./client 6000 127.0.0.1\fP
+.SH "SEE ALSO"
+server(1)
+.SH AUTHOR
+Anita Ferenc
+.SH REPORTING BUGS
+No bugs to report.
+
